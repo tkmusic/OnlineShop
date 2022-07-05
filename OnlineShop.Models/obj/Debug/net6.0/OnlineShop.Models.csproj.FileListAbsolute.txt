@@ -1,0 +1,12 @@
+/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/bin/Debug/net6.0/OnlineShop.Models.deps.json
+/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/bin/Debug/net6.0/OnlineShop.Models.dll
+/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/bin/Debug/net6.0/ref/OnlineShop.Models.dll
+/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/bin/Debug/net6.0/OnlineShop.Models.pdb
+/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/obj/Debug/net6.0/OnlineShop.Models.csproj.AssemblyReference.cache
+/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/obj/Debug/net6.0/OnlineShop.Models.GeneratedMSBuildEditorConfig.editorconfig
+/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/obj/Debug/net6.0/OnlineShop.Models.AssemblyInfoInputs.cache
+/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/obj/Debug/net6.0/OnlineShop.Models.AssemblyInfo.cs
+/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/obj/Debug/net6.0/OnlineShop.Models.csproj.CoreCompileInputs.cache
+/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/obj/Debug/net6.0/OnlineShop.Models.dll
+/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/obj/Debug/net6.0/ref/OnlineShop.Models.dll
+/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/obj/Debug/net6.0/OnlineShop.Models.pdb

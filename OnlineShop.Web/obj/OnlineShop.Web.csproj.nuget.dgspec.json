@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Web/OnlineShop.Web.csproj": {}
+  },
+  "projects": {
+    "/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/OnlineShop.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/OnlineShop.Models.csproj",
+        "projectName": "OnlineShop.Models",
+        "projectPath": "/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/OnlineShop.Models.csproj",
+        "packagesPath": "/home/tonikrug/.nuget/packages/",
+        "outputPath": "/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tonikrug/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Web/OnlineShop.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Web/OnlineShop.Web.csproj",
+        "projectName": "OnlineShop.Web",
+        "projectPath": "/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Web/OnlineShop.Web.csproj",
+        "packagesPath": "/home/tonikrug/.nuget/packages/",
+        "outputPath": "/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/tonikrug/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/OnlineShop.Models.csproj": {
+                "projectPath": "/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Models/OnlineShop.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.6, 6.0.6]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/6.0.106/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
