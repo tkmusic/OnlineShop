@@ -46,7 +46,7 @@ public class ProductService : IProductService
     {
         try
         {
-            id = 1000;
+            // id = 1000; // to test exception
             var response = await httpClient.GetAsync($"api/Product/{id}");
             if (response.IsSuccessStatusCode)
             {
