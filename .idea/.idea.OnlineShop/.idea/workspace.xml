@@ -7,10 +7,40 @@
     <projectFile profileName="IIS Express">OnlineShop.Api/OnlineShop.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="405383dd-a5d8-4b14-b45f-d3eb4ba73dd9" name="Changes" comment="">
+    <list default="true" id="405383dd-a5d8-4b14-b45f-d3eb4ba73dd9" name="Changes" comment="Removed Code to test the exceptions">
+      <change afterPath="$PROJECT_DIR$/OnlineShop.Api/Controllers/ShoppingCartController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineShop.Api/Repositories/Contracts/IShoppingCartRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineShop.Api/Repositories/ShoppingCartRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineShop.Web/Pages/DisplaySpinner.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineShop.Web/Pages/DisplaySpinner.razor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/scopedcss/Pages/DisplaySpinner.razor.rz.scp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineShop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineShop.Api/obj/Debug/net6.0/OnlineShop.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Api/obj/Debug/net6.0/OnlineShop.Api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Api/Extensions/DtoConversions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Api/Extensions/DtoConversions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Api/OnlineShop.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Api/OnlineShop.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/Pages/ProductDetails.razor" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/Pages/ProductDetails.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/Pages/Products.razor" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/Pages/Products.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/Pages/ProductsBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/Pages/ProductsBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/Services/ProductService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/Services/ProductService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/OnlineShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/OnlineShop.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/OnlineShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/OnlineShop.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/ref/OnlineShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/ref/OnlineShop.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/OnlineShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/OnlineShop.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/OnlineShop.Web.dll.gz" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/OnlineShop.Web.dll.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/OnlineShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/OnlineShop.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/OnlineShop.Web.pdb.gz" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/OnlineShop.Web.pdb.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/blazor.boot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/build-gz/ZJ29oAyN.gz" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/build-gz/ZJ29oAyN.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/build-gz/ss6f8sXq.gz" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/build-gz/ss6f8sXq.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/ref/OnlineShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/ref/OnlineShop.Web.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/scopedcss/bundle/OnlineShop.Web.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/scopedcss/bundle/OnlineShop.Web.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/scopedcss/projectbundle/OnlineShop.Web.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/scopedcss/projectbundle/OnlineShop.Web.bundle.scp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,27 +74,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/tonikrug/RiderProjects/OnlineShop.Web&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/tonikrug/RiderProjects/OnlineShop.Web",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.statistic.project.settings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;sqlite&quot;,
-      &quot;sqlserver.localdb&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "sqlite",
+      "sqlserver.localdb"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Compound.OnlineShop">
+}]]></component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.OnlineShop.Api">
     <configuration name="OnlineShop" type="CompoundRunConfigurationType">
       <toRun name="OnlineShop.Api" type="LaunchSettings" />
       <toRun name="OnlineShop.Web" type="LaunchSettings" />
@@ -170,7 +200,7 @@
       <workItem from="1657050867181" duration="89000" />
       <workItem from="1657051032926" duration="90000" />
       <workItem from="1657051234545" duration="851000" />
-      <workItem from="1657099376396" duration="599000" />
+      <workItem from="1657099376396" duration="16041000" />
     </task>
     <task id="LOCAL-00001" summary="Created Web and Api Project">
       <created>1656514338560</created>
@@ -228,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657051594726</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Removed Code to test the exceptions">
+      <created>1657106423696</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657106423696</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +614,8 @@
     <MESSAGE value="Added ProductDatails Page" />
     <MESSAGE value="Created New git Repo" />
     <MESSAGE value="Removed Bug for an unhandled exception when opening a product page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Bug for an unhandled exception when opening a product page" />
+    <MESSAGE value="Removed Code to test the exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Code to test the exceptions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -7,7 +7,7 @@
 }
 else if (Product == null && ErrorMessage == null)
 {
-    <h3>Loading product details...</h3>
+    <DisplaySpinner/>
 }
 
 else
@@ -25,6 +25,10 @@ else
                     @Product.Price.ToString("C")&nbsp;(@Product.Qty items in stock)
                 </b>
             </p>
+            <div>
+                <button class="btn btn-success"
+                ><b>Add to Cart</b></button>
+            </div>
         </div>
     </div>
 }

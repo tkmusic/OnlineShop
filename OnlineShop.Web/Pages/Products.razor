@@ -1,9 +1,13 @@
 @page "/"
 @inherits ProductsBase
 
-@if (Products == null)
+@if (Products == null && ErrorMessage == null)
 {
-    <h3>Loading Products...</h3>
+    <DisplaySpinner/>
+}
+else if (ErrorMessage != null)
+{
+    <DisplayError ErrorMessage="@ErrorMessage"></DisplayError>
 }
 else
 {
@@ -20,7 +24,5 @@ else
                 </div>
                 <hr class="mb-3"/>
             }
-            
-        
     }
 }

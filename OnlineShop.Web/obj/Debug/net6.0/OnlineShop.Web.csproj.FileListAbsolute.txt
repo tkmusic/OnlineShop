@@ -930,3 +930,4 @@
 /home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Web/obj/Debug/net6.0/build-gz/HvborldK.gz
 /home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Web/obj/Debug/net6.0/build-gz/9ys+gHjO.gz
 /home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Web/obj/Debug/net6.0/scopedcss/Pages/DisplayProducts.razor.rz.scp.css
+/home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Web/obj/Debug/net6.0/scopedcss/Pages/DisplaySpinner.razor.rz.scp.css
