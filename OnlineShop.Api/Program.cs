@@ -30,7 +30,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors(policy => policy.WithOrigins("https://192.168.1.110:7037", "http://192.168.1.110:7037")
+app.UseCors(policy => policy.WithOrigins("https://localhost:7037", "http://localhost:7037")
     .AllowAnyMethod().WithHeaders(HeaderNames.ContentType));
 
 app.UseHttpsRedirection(); 

@@ -22,7 +22,7 @@ public class ShoppingCartRepository : IShoppingCartRepository
 
     public async Task<CartItem> AddItem(CartItemToAddDto cartItemToAddDto)
     {
-        if (await CartItemExists(cartItemToAddDto.CartId, cartItemToAddDto.ProductId))
+        if (await CartItemExists(cartItemToAddDto.CartId, cartItemToAddDto.ProductId) == false)
         {
             var item = await (from product in _onlineShopDbContext.Products
                 where product.Id == cartItemToAddDto.ProductId
