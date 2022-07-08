@@ -47,9 +47,15 @@ public class ShoppingCartRepository : IShoppingCartRepository
         throw new NotImplementedException();
     }
 
-    public Task<CartItem> DeleteItem(int id)
+    public async Task<CartItem> DeleteItem(int id)
     {
-        throw new NotImplementedException();
+        var item = await this._onlineShopDbContext.CartItems.FindAsync(id);
+        if (item != null)
+        {
+            this._onlineShopDbContext.CartItems.Remove(item);
+            await this._onlineShopDbContext.SaveChangesAsync();
+        }
+        return item;
     }
 
     public async Task<CartItem> GetItem(int id)
