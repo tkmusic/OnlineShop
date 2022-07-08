@@ -7,13 +7,20 @@
     <projectFile profileName="IIS Express">OnlineShop.Api/OnlineShop.Api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="405383dd-a5d8-4b14-b45f-d3eb4ba73dd9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/OnlineShop.Web/Pages/ShoppingCart.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OnlineShop.Web/Pages/ShoppingCartBase.cs" afterDir="false" />
+    <list default="true" id="405383dd-a5d8-4b14-b45f-d3eb4ba73dd9" name="Changes" comment="Added functionality to delete cartitems in the api">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OnlineShop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OnlineShop/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShop.Api/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Api/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Api/bin/Debug/net6.0/OnlineShop.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Api/bin/Debug/net6.0/OnlineShop.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Api/bin/Debug/net6.0/OnlineShop.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Api/bin/Debug/net6.0/OnlineShop.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Api/bin/Debug/net6.0/ref/OnlineShop.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Api/bin/Debug/net6.0/ref/OnlineShop.Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShop.Api/obj/Debug/net6.0/OnlineShop.Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Api/obj/Debug/net6.0/OnlineShop.Api.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/Pages/ProductDetailsBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/Pages/ProductDetailsBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Api/obj/Debug/net6.0/OnlineShop.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Api/obj/Debug/net6.0/OnlineShop.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Api/obj/Debug/net6.0/OnlineShop.Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Api/obj/Debug/net6.0/OnlineShop.Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Api/obj/Debug/net6.0/ref/OnlineShop.Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Api/obj/Debug/net6.0/ref/OnlineShop.Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Api/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Api/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/Pages/ShoppingCart.razor" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/Pages/ShoppingCart.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/Pages/ShoppingCartBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/Pages/ShoppingCartBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/Services/Contracts/IShoppingCartService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/Services/Contracts/IShoppingCartService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShop.Web/Services/ShoppingCartService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/Services/ShoppingCartService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/OnlineShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/OnlineShop.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/OnlineShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/OnlineShop.Web.pdb" afterDir="false" />
@@ -23,8 +30,6 @@
       <change beforePath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/OnlineShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/OnlineShop.Web.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/OnlineShop.Web.pdb.gz" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/OnlineShop.Web.pdb.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/bin/Debug/net6.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/OnlineShop.Web.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineShop.Web/obj/Debug/net6.0/blazor.boot.json" afterDir="false" />
@@ -60,6 +65,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/486527212af14a61827d809f286db5272bc00/83/f3540723/CallSiteFactory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/608710c970c749fbf3b2770da238f7a1a2e9b7a2cf9d69ab012b02caefef833/LayoutComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cff4d35895d3db30db86a0ec21297ac77589b961f6e219dede5a24aff0bb3b8d/ComponentBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/tonikrug/RiderProjects/OnlineShop.Web/OnlineShop.Api/Controllers/ShoppingCartController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -203,7 +209,7 @@
       <workItem from="1657051234545" duration="851000" />
       <workItem from="1657099376396" duration="16259000" />
       <workItem from="1657190927423" duration="14096000" />
-      <workItem from="1657271334445" duration="6528000" />
+      <workItem from="1657271334445" duration="8838000" />
     </task>
     <task id="LOCAL-00001" summary="Created Web and Api Project">
       <created>1656514338560</created>
@@ -282,7 +288,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657206157681</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added the UI to the ShoppingCart">
+      <created>1657292812620</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657292812620</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added functionality to delete cartitems in the api">
+      <created>1657293622102</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657293622102</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +654,9 @@
     <MESSAGE value="Removed Code to test the exceptions" />
     <MESSAGE value="Created HttpGet: GetItem / GetItems&#10;Created HttpPost: PostItem&#10;---&gt; in ShoppingCartController.cs" />
     <MESSAGE value="Created functionality to add an Item to CartItems in the Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created functionality to add an Item to CartItems in the Database" />
+    <MESSAGE value="Added the UI to the ShoppingCart" />
+    <MESSAGE value="Added functionality to delete cartitems in the api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added functionality to delete cartitems in the api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -657,10 +679,10 @@
           <line>46</line>
           <properties documentPath="$PROJECT_DIR$/OnlineShop.Web/Services/ShoppingCartService.cs" initialLine="46" containingFunctionPresentation="method 'AddItem'">
             <startOffsets>
-              <option value="1296" />
+              <option value="1291" />
             </startOffsets>
             <endOffsets>
-              <option value="1401" />
+              <option value="1396" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="19" />
